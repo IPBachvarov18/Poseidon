@@ -29,3 +29,35 @@ nav a
     text-align: center;
 }
 
+nav a:hover {
+    color: #17F4A7;
+  }
+a:nth-child(1)
+{
+    width:33%;
+}
+nav .start-home,a:nth-child(1):hover~.animation
+{
+    width: 33%;
+    left:0;
+}
+
+a:nth-child(2)
+{
+    width:33%;
+}
+nav .start-about,a:nth-child(2):hover~.animation
+{
+    width: 33%;
+    left:33%;
+}
+
+a:nth-child(3)
+{
+    width:33%;
+}
+nav .start-blog,a:nth-child(3):hover~.animation
+{
+    width: 33%;
+    left:66%;
+}
