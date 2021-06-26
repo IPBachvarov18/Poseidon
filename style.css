@@ -16,6 +16,7 @@ nav
     font-size:15px;
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
     border:2px solid #34495e;
+    margin-bottom:50px;
 }
 nav a
 {
@@ -29,39 +30,65 @@ nav a
     display: inline-block;
     text-align: center;
 }
-
 nav a:hover {
-    color: #34495e;
-    transition: .75s;
-  }
-a:nth-child(1)
-{
-    width:33%;
-}
-nav .start-home,a:nth-child(1):hover~.animation
-{
-    width: 33%;
-    left:0;
+        color: #34495e;
+        transition: .75s;
+    }
+
+@media only screen and (min-width: 900px) {
+    
+    a:nth-child(1){
+        width:33%;
+    }
+    nav .start-home,a:nth-child(1):hover~.animation{
+        width: 33%;
+        left:0;
+    }
+    
+    a:nth-child(2){
+        width:33%;
+    }
+    nav .start-about,a:nth-child(2):hover~.animation{
+        width: 33%;
+        left:33%;
+    }
+    
+    a:nth-child(3){
+        width:33%;
+    }
+    nav .start-blog,a:nth-child(3):hover~.animation{
+        width: 33%;
+        left:66%;
+    }
+
 }
 
-a:nth-child(2)
-{
-    width:33%;
-}
-nav .start-about,a:nth-child(2):hover~.animation
-{
-    width: 33%;
-    left:33%;
-}
+@media only screen and (max-width: 900px) {
+    a:nth-child(1){
+        width:30%;
+    }
+    nav .start-home,a:nth-child(1):hover~.animation{
+        width: 30%;
+        left:0;
+    }
+    
+    a:nth-child(2){
+        width:33%;
+    }
+    nav .start-about,a:nth-child(2):hover~.animation{
+        width: 33%;
+        left:33%;
 
-a:nth-child(3)
-{
-    width:33%;
-}
-nav .start-blog,a:nth-child(3):hover~.animation
-{
-    width: 33%;
-    left:66%;
+    }
+    
+    a:nth-child(3){
+        width:33%;
+    }
+    nav .start-blog,a:nth-child(3):hover~.animation{
+        width: 33%;
+        left:60%;
+
+    }
 }
 
 .center{
@@ -87,16 +114,15 @@ nav .start-blog,a:nth-child(3):hover~.animation
     
 }
 
-.frontImage{
-    
-    
-}
 
 
 .imgHome{
     width: 300px;
-   
- 
+}
+
+.imagesAnimals{
+    width:300px;
+    height:300px;
 }
 
 .buttonHome{
@@ -117,4 +143,48 @@ nav .start-blog,a:nth-child(3):hover~.animation
     padding: 8px;
 }
 
-
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
