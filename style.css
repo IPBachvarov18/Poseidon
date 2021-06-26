@@ -63,3 +63,58 @@ nav .start-blog,a:nth-child(3):hover~.animation
     width: 33%;
     left:66%;
 }
+
+.center{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaper{
+    margin-top: 50px;
+    margin-bottom: 85px;
+    width: 85%;
+    height: 400px;
+    opacity: .85;
+    border-radius: 10px;
+}
+
+.HomeTableInfo{
+    border: 1px solid black;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.frontImage{
+    
+    
+}
+
+
+.imgHome{
+    width: 300px;
+   
+ 
+}
+
+.buttonHome{
+    border: none;
+    border-radius: 10px;
+    background-color: #34495e;
+    color: #17F4A7;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.buttonHome{
+    border: none;
+    border-radius: 10px;
+    background-color: #34495e;
+    color: #17F4A7;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
