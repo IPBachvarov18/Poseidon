@@ -137,3 +137,20 @@ p{
 .color3{
     background-color:#00C0C0;
 }
+
+.center{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .wallpaper{
+     margin-bottom: 85px;
+     width: 95%;
+     height: 480px;
+     border-radius:15px;
+ }
+ .length{
+     width: 500px;
+     height:300px;
+ }
