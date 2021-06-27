@@ -103,7 +103,7 @@ nav a:hover {
 }
 
 
-.fish{
+.padd{
     padding-left:15px;
 }
 
@@ -153,4 +153,9 @@ p{
  .length{
      width: 500px;
      height:300px;
+ }
+
+ .turtel{
+     width:250px;
+     height:200px;
  }
