@@ -103,11 +103,20 @@ nav a:hover {
 }
 
 
-
 .fish{
     padding-left:15px;
 }
 
 p{
     margin:0;
+}
+
+.fishBlech{
+    width:400px;
+    height:300px;
+}
+
+.fishKesl{
+    width:550px;
+    height:200px;
 }
