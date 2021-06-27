@@ -98,40 +98,28 @@ nav a:hover {
 }
 
 .wallpaper{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 85px;
-    width: 85%;
-    height: 400px;
+    width: 95%;
+    height: 480px;
     opacity: .85;
     border-radius: 10px;
 }
 
 .HomeTableInfo{
-    border: 1px solid black;
+    
     width: 90%;
-    text-align: center;
-    justify-content: center;
+    
     
 }
 
-
-
 .imgHome{
-    width: 300px;
+    width: 80%;
 }
 
 .imagesAnimals{
     width:300px;
     height:300px;
-}
-
-.buttonHome{
-    border: none;
-    border-radius: 10px;
-    background-color: #34495e;
-    color: #17F4A7;
-    font-size: 16px;
-    padding: 8px;
 }
 
 .buttonHome{
@@ -149,3 +137,26 @@ nav a:hover {
 .fish{
     padding-left:15px;
 }
+
+.buttonLink{
+    text-decoration: none;
+    color: #17F4A7;
+}
+
+.tdSize{
+    width: 65%;
+}
+
+.DIV{
+    width: 100%;
+    height: 400px;
+    
+   font-size: 24px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+
