@@ -1,5 +1,5 @@
 body {
-    background-image:linear-gradient(whitesmoke,rgb(245, 225, 188));
+    background-image: linear-gradient(to right bottom, #051937, #007c9e, #00b4b7, #00ffc3);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -119,4 +119,21 @@ p{
 .fishKesl{
     width:550px;
     height:200px;
+}
+
+.color0{
+    color:white;
+    background-color:#036096;
+}
+
+.color1{
+    background-color:#0088BE;
+}
+
+.color2{
+    background-color:#00A4C3;
+}
+
+.color3{
+    background-color:#00C0C0;
 }
